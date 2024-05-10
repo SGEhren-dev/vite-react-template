@@ -1,0 +1,17 @@
+# Ignore node specific files/folders
+node_modules/
+
+# Ignore MAC specific files
+.DS_Store
+
+# Ignore build folders
+dist/
+
+# Editor directories and files
+.vscode
+!.vscode/extensions.json
+
+# Logs
+logs
+*.log
+npm-debug.log

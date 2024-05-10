@@ -1,0 +1,74 @@
+@import "../../../Styles/Colors.less";
+
+.login {
+	display: flex;
+	height: 100%;
+	width: 100%;
+
+	.login-left {
+		align-items: center;
+		background-color: @background;
+		color: @font-light;
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		width: 35%;
+
+		.login-header {
+			color: @font-light;
+			flex: 1;
+			font-size: 2em;
+			font-weight: bold;
+			margin-top: 30%;
+		}
+
+		.login-form {
+			align-items: center;
+			display: flex;
+			flex: 1;
+			flex-direction: column;
+			width: 50%;
+
+			input {
+				background-color: @foreground;
+				border: 1px solid @foreground;
+				border-radius: 8px;
+				color: @font-dark;
+				height: 30px;
+				margin-bottom: 15px;
+				outline: none;
+				padding: 10px;
+				transition: all .3s ease;
+				width: 100%;
+
+				&:focus, &:hover {
+					border: 1px solid @primary;
+				}
+			}
+
+			button {
+				color: @font-dark;
+				border-radius: 8px;
+				background-color: @success;
+				border: 1px solid transparent;
+				cursor: pointer;
+				font-size: 1em;
+				font-weight: 500;
+				font-family: inherit;
+				padding: 0.5em 1.2em;
+				transition: border-color .25s;
+				width: 50%;
+
+				&:hover {
+					border-color: darken(@success, 50%);
+				}
+			}
+		}
+	}
+
+	.login-right {
+		background-color: @foreground;
+		height: 100%;
+		width: 65%;
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"name": "vite-react-template",
+	"version": "0.0.0",
+	"description": "Vite-React-Redux-Typescript template",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"lint": "npx eslint ./src --ext .ts --ext .tsx"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SGEhren-dev/vite-react-template.git"
+	},
+	"author": "SGEhren-dev",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/SGEhren-dev/vite-react-template/issues"
+	},
+	"homepage": "https://github.com/SGEhren-dev/vite-react-template#readme",
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.22.3"
+	},
+	"devDependencies": {
+		"@reduxjs/toolkit": "^2.2.3",
+		"@types/react": "^18.2.79",
+		"@types/react-dom": "^18.2.25",
+		"@types/redux-persist": "^4.3.1",
+		"@vitejs/plugin-react": "^4.2.1",
+		"less": "^4.2.0",
+		"react-redux": "^9.1.1",
+		"redux-persist": "^6.0.0",
+		"typescript": "^5.4.5",
+		"vite": "^5.2.10",
+		"vite-tsconfig-paths": "^4.3.2"
+	}
+}
